@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1><img src="./img/logo-mari-e-gabi-petshop.svg" alt="logo" aria-label="Logotipo Mari e Gabi Petshop "></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li id="contato"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="fundo-verde">
+            <div class="container flex-container">
+                <div class="col">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quia aut officia inventore
+                        laborum, repellendus possimus animi nihil, quidem assumenda dolor ab ex, alias obcaecati impedit
+                        libero blanditiis placeat a!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium et voluptate facere debitis
+                        est voluptatum corrupti, dolorem quas qui alias perspiciatis, officiis iusto eligendi assumenda
+                        temporibus ipsa impedit quisquam dolore.</p>
+                </div>
+                <div class="col">
+                    <img src="./img/img-sobre.jpg" alt="filhotes">
+                </div>
+            </div>
+        </section>
+        <section id="Produto">
+            <div class="container">
+                <h2 class="texto-centralizado">Produtos</h2>
+                <p class="texto-centralizado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt
+                    doloremque deserunt odio vel
+                    laudantium sed accusamus. Laboriosam soluta expedita eveniet nesciunt laborum ipsa suscipit iure aut
+                    mollitia, excepturi earum.</p>
+                <div class="flex-container">
+                    <div class="produto">
+                        <figure>
+                            <img src="img/produto-1.jpg" alt="Shampoo para cachorros">
+                        </figure>
+                        <h3>Produto Pet #1</h3>
+                        <p>R$ 35,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </div>
+                    <div class="produto">
+                        <figure>
+                            <img src="img/produto-2.jpg" alt="Casinha para cachorro">
+                        </figure>
+                        <h3>Produto Pet #2</h3>
+                        <p>R$ 35,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </div>
+                    <div class="produto">
+                        <figure>
+                            <img src="img/produto-3.jpg" alt="Pote de ração">
+                        </figure>
+                        <h3>Produto Pet #3</h3>
+                        <p>R$ 35,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fundo-verde">
+            <div class="container flex-container">
+                <div class="col">
+                    <h2>Serviços</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quia aut officia inventore
+                        laborum, repellendus possimus animi nihil, quidem assumenda dolor ab ex, alias obcaecati impedit
+                        libero blanditiis placeat a!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium et voluptate facere debitis
+                        est voluptatum corrupti, dolorem quas qui alias perspiciatis, officiis iusto eligendi assumenda
+                        temporibus ipsa impedit quisquam dolore.</p>
+                </div>
+                <div class="col">
+                    <img src="img/img-galeria-1.jpg" alt="golden">
+                    <img src="img/img-galeria-2.jpg" alt="loja">
+                    <img src="img/img-galeria-3.jpg" alt="dois goldens">
+                    <img src="img/img-galeria-4.jpg" alt="pug">
+                </div>
+            </div>
+        </section>
+        <section id="Contato">
+            <div class="container">
+                <div class="texto-centralizado">
+                    <h2>Contatos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum minus sint quaerat amet incidunt
+                        corporis error! Inventore, architecto labore? Repudiandae, eius deserunt eos delectus autem
+                        numquam excepturi beatae et quos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ab, iste quas dolorem tenetur
+                        veritatis aliquam et temporibus nihil molestiae placeat ipsa laboriosam animi vel? Numquam et
+                        praesentium veritatis eius!</p>
+                </div>
+                <div class="flex-container">
+                    <div class="col">
+                        <form action="">
+                            <label for="nome">
+                                <strong>Nome:</strong>
+                                <input type="text" id="nome" placeholder="Insira o seu nome completo">
+                            </label>
+                            <label for="mail">
+                                <strong>E-mail:</strong>
+                                <input type="email" id="email" placeholder="exemplo@dominio.com.br">
+                            </label>
+                            <label for="tele">
+                                <strong>Telefone:</strong>
+                                <input type="tel" id="tele" placeholder=" (11)0000-0000 ou (11) 9000-0000">
+                            </label>
+                            <label for="ass">
+                                <strong>Assunto:</strong>
+                                <input type="text" id="ass" placeholder="Insira aqui o assunto da mensagem">
+                            </label>
+                            <label for="">
+                                <strong>Mensagem:</strong>
+                                <textarea name="msg" id="msg" placeholder="Insira a sua mensagem"></textarea>
+                            </label>
+
+                            <div>
+                                <button class="btn-pata">
+                                    <img src="img/patinha-preta.png" alt="Patinha Preta">
+                                    Enviar
+                                </button>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div class="col">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.3835836753888!2d-46.768516525174945!3d-23.69799227870617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1779924483273!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>Endereço: Estrada da Baronesa, 1695 - Kagohara - São Paulo
+                            <br>
+                            <strong>CEP:04941-175</strong>
+                            <strong>TEL:</strong>(11)6666-7777 <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex-container">
+            <div>
+                <a href="www.linkedin.com/in/marcos-vinícius-2381a23aa" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/HTMarkito/primeiroRep.git" target="_blank">
+                    <i class="fa-brands fa-github fa-3x"></i>
+                </a>
+            </div>
+        </div>
+        <p>By Marcos Vinicius da Silva Vieira</p>
+    </footer>
+
+</body>
+
+</html>
